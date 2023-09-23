@@ -14,29 +14,48 @@
     ]
   },
   "interests": [
-    { "name": "Climate change" },
+    { "name": "climate change" },
     { "name": "GIS" },
     { "name": "geospatial analysis" },
+    { "name": "climate change projections (CMIP6)" },
     { "name": "marine ecosystems" },
     { "name": "coral reefs" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "keywords": [ "R","Python" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "RStudio", "Jupyter Notebook", "ArcGIS Pro" ]
+      "name": "Toolsets",
+      "keywords": [ "RStudio", "Jupyter Notebook", "ArcGIS Pro", "ENVI"]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "University of Hawaiʻi at Mānoa, Honolulu, HI",
+      "area": "Geography and Environment",
+      "studyType": "Ph.D.",
+      "startDate": "2020-01-01",
       "endDate": "Present",
+      "coursework in": ["biogeography", "climatology", "geospatial technology (ArcGIS)", "remote sensing", "Python", "machine learning"
+      ]
+    },
+    {
+      "institution": "University of Hawaiʻi at Mānoa, Honolulu, HI",
+      "area": "Geography and Environment",
+      "studyType": "M.A.",
+      "startDate": "2018-08-01",
+      "endDate": "2019-12-30",
+      "coursework in": ["statistics", "geospatial technology", "coding in R"
+      ]
+    },
+    {
+      "institution": "Cornell University, Ithaca, NY",
+      "area": "Interdisciplinary Studies",
+      "studyType": "B.S.",
+      "startDate": "2009-08-01",
+      "endDate": "2013-05-30",
       "courses": [
       ]
     }
