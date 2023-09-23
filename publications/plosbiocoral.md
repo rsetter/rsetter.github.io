@@ -1,6 +1,6 @@
 ---
-layout: publication
-type: publication
+layout: publications
+type: publications
 published: true
 title: "Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs"
 date: 2022
