@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/coralmultstress/reef2.JPG
+image: img/coralmultstress/coralamsam.JPG
 title: "Co-occurring Stressors on Coral Reefs"
 date: 2022
 published: true
@@ -13,7 +13,7 @@ summary: "Projected environmental suitability under multiple stressors for coral
 ---
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/coralmultstress/coralamsam.JPG" class="img-thumbnail" >
+  <img width="400px" src="../img/coralmultstress/reef2.JPG" class="img-thumbnail" >
   <img width="400px" src="../img/coralmultstress/reef3.JPG" class="img-thumbnail" >
   <img width="400px" src="../img/coralmultstress/multstressfig.PNG" class="img-thumbnail" >
 </div>
