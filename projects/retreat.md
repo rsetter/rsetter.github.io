@@ -1,18 +1,19 @@
 ---
 layout: project
 type: project
-image: img/retreat/sunset.png
+image: img/retreat/sunset.JPG
 title: "Managed Retreat"
 date: 2023
 published: true
 labels:
   - R
   - ArcGIS Pro
+  - Python
 summary: "Costs and tradeoffs of managed retreat strategies under projected sea level rise in Hawaiʻi"
 ---
 
 <div class="text-center p-4">
-  <img width="550px" src="../img/retreat/sunset.JPG" class="img-thumbnail" >
+  <img width="600px" src="../img/retreat/sunset.JPG" class="img-thumbnail" >
   <img width="400px" src="../img/retreat/fig4_beacharea.png" class="img-thumbnail" >
 </div>
 
