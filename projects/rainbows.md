@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/rainbows/rainbow.heic
+image: img/rainbows/rainbow.jpg
 title: "Rainbow Occurrence"
 date: 2022
 published: true
@@ -12,7 +12,7 @@ summary: "Current and projected distribution of rainbow occurrence"
 ---
 
 <div class="text-center p-4">
-  <img width="550px" src="../img/rainbows/rainbow.heic" class="img-thumbnail" >
+  <img width="550px" src="../img/rainbows/rainbow.jpg" class="img-thumbnail" >
   <img width="400px" src="../img/rainbows/rainbowfig.jpg" class="img-thumbnail" >
 </div>
 
