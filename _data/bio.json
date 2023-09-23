@@ -40,7 +40,7 @@
       "startDate": "2020-01-01",
       "endDate": "Present",
       "thesistitle": "Dissertation: The Underestimation of Projected Effects of Climate Change on Coral Reefs",
-      "coursework in": ["biogeography", "climatology", "geospatial technology (ArcGIS)", "remote sensing", "Python", "machine learning"
+      "courses": ["biogeography", "climatology", "geospatial technology (ArcGIS)", "remote sensing", "Python", "machine learning"
       ]
     },
     {
@@ -50,7 +50,7 @@
       "startDate": "2018-08-01",
       "endDate": "2019-12-30",
       "thesistitle": "Thesis: Coral Restoration Under Climate Change and Other Human Impacts",
-      "coursework in": ["statistics", "geospatial technology", "coding in R"
+      "courses": ["statistics", "geospatial technology", "coding in R"
       ]
     },
     {
@@ -63,76 +63,80 @@
       ]
     }
   ],
-  "work": [
+  "experience": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "University of Hawai‘i at Mānoa Institute for Sustainability and Resilience",
+      "position": "Graduate Research Assistant",
+      "website": "https://manoa.hawaii.edu/isr/",
+      "startDate": "2022-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Research costs and tradeoffs of managed retreat strategies under projected sea level rise in Hawai‘i"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "University of Hawai‘i at Mānoa - BIOL 403: Field Problems in Marine Biology",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "2020-07-01",
+      "endDate": "2023-08-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Oversaw geospatial portion of field summer course",
+        "Guided students through remote sensing analysis using satellite imagery and geospatial analysis in ArcGIS Pro"
       ]
     },
     {
-      "organization": "",
+      "company": "University of Hawai‘i at Mānoa - GEO 101: The Natural Environment",
+      "position": "Graduate Teaching Assistant",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2018-08-01",
+      "endDate": "2019-05-15",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Led and facilitated review sessions to clarify course content prior to each exam",
+        "Lectured and presented course material for one chapter of course content"
+      ]
+    },
+    {
+      "company": "Bay Islands Reef Restoration - Roatán, Honduras",
+      "position": "Science Coordinator",
+      "website": "https://bayislandsreefrestoration.org/",
+      "startDate": "2018-01-01",
+      "endDate": "2018-07-15",
+      "summary": "",
+      "highlights": [
+        "Analyzed coral growth rates of Acropora cervicornis and Acropora palmata after collecting raw data from nursery",
+        "Created a map of coral outplanting sites for future monitoring purposes",
+        "Organized coral outplantings and led coral nursery dive-tours with customers"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "STEM STRIDE Fellowship",
+      "date": "2023-Present",
+      "awarder": "National Science Foundation (NSF)",
+      "summary": ""
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
+      "title": "Doctoral Scholarship",
+      "date": "2022",
+      "awarder": "United States Geospatial Intelligence Foundation (USGIF)",
+      "summary": ""
+    },
     {
-      "name": "Available upon request"
+      "title": "Graduate Research Fellowship",
+      "date": "2019-2022",
+      "awarder": "National Science Foundation (NSF)",
+      "summary": ""
+    },
+    {
+      "title": "Graduate Marine Conservation Scholarship",
+      "date": "2019",
+      "awarder": "Women Divers Hall of Fame",
+      "summary": ""
     }
   ]
 }
