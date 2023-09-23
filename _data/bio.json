@@ -39,6 +39,7 @@
       "studyType": "Ph.D.",
       "startDate": "2020-01-01",
       "endDate": "Present",
+      "thesistitle": "Dissertation: The Underestimation of Projected Effects of Climate Change on Coral Reefs",
       "coursework in": ["biogeography", "climatology", "geospatial technology (ArcGIS)", "remote sensing", "Python", "machine learning"
       ]
     },
@@ -48,6 +49,7 @@
       "studyType": "M.A.",
       "startDate": "2018-08-01",
       "endDate": "2019-12-30",
+      "thesistitle": "Thesis: Coral Restoration Under Climate Change and Other Human Impacts",
       "coursework in": ["statistics", "geospatial technology", "coding in R"
       ]
     },
