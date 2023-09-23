@@ -10,8 +10,8 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaiʻi" },
     "profiles": [
       { "network": "github", "username": "rsetter", "url": "http://github.com/rsetter" },
-      { "network": "linkedin", "username": "reneesetter", "url": "www.linkedin.com/in/reneesetter" },
-      { "network" : "scholar", "username" : "renee-o-setter", "url" : "https://scholar.google.com/citations?user=l_ab_FYAAAAJ&hl=en&oi=ao" }
+      { "network": "linkedin", "username": "reneesetter", "url": "http://www.linkedin.com/in/reneesetter" },
+      { "network" : "scholar", "username" : "renee-o-setter", "url" : "http://scholar.google.com/citations?user=l_ab_FYAAAAJ&hl=en&oi=ao" }
     ]
   },
   "interests": [
