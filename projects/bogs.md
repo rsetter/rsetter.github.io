@@ -3,8 +3,8 @@ layout: project
 type: project
 image: img/bogs/bogs.jpg
 title: "High-Elevation Tropical Bogs"
-date: -
-published: false
+date: in progress
+published: true
 labels:
   - R
   - Python
