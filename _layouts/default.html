@@ -1,6 +1,7 @@
 {%- assign url = '/' | prepend: site.baseurl | prepend: site.url -%}
 {%- assign title = site.title -%}
 {%- assign description = site.description -%}
+{% seo %}
 
 {%- if page.url != '/' -%}
   {%- if page.url -%}
@@ -39,7 +40,6 @@
     {% endif %}
 
     <title>{{ title }}</title>
-    {% seo %}
   </head>
   <body>
   {{ content }}
