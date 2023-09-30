@@ -1,7 +1,7 @@
 {%- assign url = '/' | prepend: site.baseurl | prepend: site.url -%}
 {%- assign title = site.title -%}
 {%- assign description = site.description -%}
-{% seo %}
+{% raw %}{% seo %}{% endraw %}
 
 {%- if page.url != '/' -%}
   {%- if page.url -%}
