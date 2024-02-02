@@ -1,3 +1,3 @@
 # Professional Portfolio
 
-For details on this professional portfolio, please see https://techfolios.github.io.
+View this portfolio at https://rsetter.github.io/
