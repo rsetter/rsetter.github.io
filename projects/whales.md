@@ -8,7 +8,7 @@ published: true
 labels:
   - R
   - CMIP6
-  - QGIS
+  - downscale
 summary: "Downscaled projected temperatures at humpback whale breeding grounds"
 ---
 
