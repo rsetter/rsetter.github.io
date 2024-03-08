@@ -9,7 +9,9 @@
     "summary": "I am a PhD candidate in the Geography and Environment department at the University of Hawaiʻi at Mānoa. 
     My research interests broadly focus on the impacts of climate change. 
     My dissertation specifically investigates projected impacts of climate change on coral reefs. 
-    I have also conducted research on the influence of climate change on diseases, rainbows, whales, bogs, and managed retreat strategies.",
+    I have also conducted research on the influence of climate change on diseases, rainbows, whales, bogs, and managed retreat strategies.
+    I am a student in the <a href="https://camilo-mora.github.io/MoraLab/">Mora Lab</a> 
+    and a graduate researcher at the <a href="https://manoa.hawaii.edu/isr/">Institute for Sustainability and Resilience</a> .",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaiʻi" },
     "profiles": [
       { "network": "github", "username": "rsetter", "url": "http://github.com/rsetter" },
