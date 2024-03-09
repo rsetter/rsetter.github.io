@@ -1,0 +1,25 @@
+{
+  "basics": {
+    "name": "Renee O. Setter",
+    "label": "PhD Candidate",
+    "picture": "https://github.com/rsetter.png",
+    "email": "rsetter@hawaii.edu",
+    "phone": "",
+    "website": "https://rsetter.github.io",
+    "summary": "I am a PhD candidate in the Geography and Environment department at the University of Hawaiʻi at Mānoa. My research interests broadly focus on the impacts of climate change. My dissertation specifically investigates projected impacts of climate change on coral reefs. I have also conducted research on the influence of climate change on diseases, rainbows, whales, bogs, and managed retreat strategies.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaiʻi" },
+    "profiles": [
+      { "network": "github", "username": "rsetter", "url": "http://github.com/rsetter" },
+      { "network": "linkedin", "username": "reneesetter", "url": "http://www.linkedin.com/in/reneesetter" },
+      { "network" : "scholar", "username" : "renee-o-setter", "url" : "http://scholar.google.com/citations?user=l_ab_FYAAAAJ&hl=en&oi=ao" }
+    ]
+  },
+  "interests": [
+    { "name": "climate change" },
+    { "name": "GIS" },
+    { "name": "big data analysis" },
+    { "name": "climate models" },
+    { "name": "marine ecology" },
+    { "name": "coral reefs" }
+  ]
+}
