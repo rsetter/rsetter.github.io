@@ -19,6 +19,16 @@ layout: home
   ol a:hover {
     color: #aaa; /* Light grey color */
   }
+
+  /* Add margin-bottom to list items */
+  ol li {
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+
+  /* Style the [PDF] links */
+  ol a.pdf-link {
+    color: #78a2cf; /* Light blue color */
+  }
 </style>
 
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
@@ -27,11 +37,11 @@ layout: home
     <h1 class="display-4">Publications</h1>
 
     <ol type="1" reversed>
-   <li><a href="https://www.nature.com/articles/s41598-023-38939-4"><b>Setter, R. O.</b> et al. Managing retreat for sandy beach areas under sea level rise. Scientific Reports 13, 11920 (2023).</a> <a href="{{ '/publications/retreatsunset2023scirep.pdf' | prepend: site.baseurl }}">[PDF]</a></li>
-   <li><a href="https://www.sciencedirect.com/science/article/pii/S095937802200142X">Carlson, K. M., Mora, C., Xu, J., <b>Setter, R. O. </b> et al. Global rainbow distribution under current and future climates. Global Environmental Change 77, 102604 (2022).</a></li>
-   <li><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001821"><b>Setter, R. O.</b>, Franklin, E. C. & Mora, C. Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLOS Biology 20, e3001821 (2022).</a></li>
-   <li><a href="https://www.nature.com/articles/s41558-022-01426-1">Mora, C. ... <b>Setter, R. O.</b> ... et al. Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12, 869–875 (2022).</a></li>
-   <li><a href="https://www.frontiersin.org/articles/10.3389/fmars.2022.837772/full">von Hammerstein, H., <b>Setter, R. O.</b>, van Aswegen, M., Currie, J. J. & Stack, S. H. High-Resolution Projections of Global Sea Surface Temperatures Reveal Critical Warming in Humpback Whale Breeding Grounds. Frontiers in Marine Science 9, 837772 (2022).</a></li>
+   <li><a href="https://www.nature.com/articles/s41598-023-38939-4"><b>Setter, R. O.</b> et al. Managing retreat for sandy beach areas under sea level rise. Scientific Reports 13, 11920 (2023).</a> <a href="{{ '/publications/retreatsunset2023scirep.pdf' | prepend: site.baseurl }}"  class="pdf-link">[PDF]</a></li>
+   <li><a href="https://www.sciencedirect.com/science/article/pii/S095937802200142X">Carlson, K. M., Mora, C., Xu, J., <b>Setter, R. O. </b> et al. Global rainbow distribution under current and future climates. Global Environmental Change 77, 102604 (2022).</a> <a href="{{ '/publications/rainbows2022gec.pdf' | prepend: site.baseurl }}"  class="pdf-link">[PDF]</a></li>
+   <li><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001821"><b>Setter, R. O.</b>, Franklin, E. C. & Mora, C. Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLOS Biology 20, e3001821 (2022).</a> <a href="{{ '/publications/coralmultstress2022pbio.pdf' | prepend: site.baseurl }}"  class="pdf-link">[PDF]</a></li>
+   <li><a href="https://www.nature.com/articles/s41558-022-01426-1">Mora, C. ... <b>Setter, R. O.</b> ... et al. Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12, 869–875 (2022).</a> <a href="{{ '/publications/disease2022natcc.pdf' | prepend: site.baseurl }}"  class="pdf-link">[PDF]</a></li>
+   <li><a href="https://www.frontiersin.org/articles/10.3389/fmars.2022.837772/full">von Hammerstein, H., <b>Setter, R. O.</b>, van Aswegen, M., Currie, J. J. & Stack, S. H. High-Resolution Projections of Global Sea Surface Temperatures Reveal Critical Warming in Humpback Whale Breeding Grounds. Frontiers in Marine Science 9, 837772 (2022).</a> <a href="{{ '/publications/whales2021fmars.pdf' | prepend: site.baseurl }}"  class="pdf-link">[PDF]</a></li>
 </ol>
 
   </div>
