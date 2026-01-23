@@ -1,26 +1,48 @@
-<div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="projects">
+<div style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ site.baseurl }}/img/research-bg.png') center/cover no-repeat; min-height: 400px;" class="py-5" id="projects">
   <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <h1 class="display-4 text-start">Projects</h1>
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h1 class="display-3 text-white fw-bold mb-4">Research</h1>
+        <p class="lead text-white mb-5">Explore my research across different ecosystems</p>
       </div>
     </div>
-
-    <div class="vstack gap-3">
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-      {% for page in project_pages %}
-        {% unless page.draft %}
-          {% include projects/project-card.html page=page %}
-        {% endunless %}
-        {% if forloop.index == include.limit %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <a href="{{ site.baseurl }}/projects/?category=marine" class="text-decoration-none">
+          <div class="card h-100 shadow-lg hover-lift" style="background-color: rgba(255, 255, 255, 0.95); transition: transform 0.3s;">
+            <div class="card-body text-center p-4">
+              <h3 class="card-title mb-3" style="color: var(--tf-blue1, #076db3);">Marine</h3>
+              <p class="card-text">Coral reefs, ocean ecosystems, and marine species</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="{{ site.baseurl }}/projects/?category=coastal" class="text-decoration-none">
+          <div class="card h-100 shadow-lg hover-lift" style="background-color: rgba(255, 255, 255, 0.95); transition: transform 0.3s;">
+            <div class="card-body text-center p-4">
+              <h3 class="card-title mb-3" style="color: var(--tf-blue1, #076db3);">Coastal</h3>
+              <p class="card-text">Sea level rise, coastal adaptation, and managed retreat</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="{{ site.baseurl }}/projects/?category=terrestrial" class="text-decoration-none">
+          <div class="card h-100 shadow-lg hover-lift" style="background-color: rgba(255, 255, 255, 0.95); transition: transform 0.3s;">
+            <div class="card-body text-center p-4">
+              <h3 class="card-title mb-3" style="color: var(--tf-blue1, #076db3);">Terrestrial</h3>
+              <p class="card-text">High-elevation ecosystems, bogs, and climate impacts</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
-
-    {% if project_pages.size > include.limit %}
-      <p class="text-center pt-4"><a href="{{ site.baseurl}}/projects/">See all {{ project_pages.size }} projects</a></p>
-    {% endif %}
-
   </div>
 </div>
+
+<style>
+.hover-lift:hover {
+  transform: translateY(-10px);
+}
+</style>
