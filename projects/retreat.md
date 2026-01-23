@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+category: coastal
 image: img/retreat/sunset.JPG
 title: "Managed Retreat"
 date: 2023
