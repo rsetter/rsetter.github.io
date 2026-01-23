@@ -5,13 +5,13 @@
         <img width="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
       </div>
       <div class="col-lg-7">
-        <h1 class="display-4 text-center" style="font-family: 'Open Sans', sans-serif;">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-center" style="font-family: 'Open Sans', sans-serif;">{{ site.data.bio.basics.label }}</p>
-        <p class="lead text-center" style="font-family: 'Open Sans', sans-serif;">
+        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
+        <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
+        <p class="lead text-center">
           I am a researcher at the <a href="https://manoa.hawaii.edu/isr/">Institute for Sustainability and Resilience</a> at the University of Hawaiʻi at Mānoa with a research focus in projected effects of climate change. My research projects have included the influence of climate change on coral reefs, diseases, rainbows, whales, bogs, and managed retreat strategies. 
         </p>
         <hr class="my-4">
-        <p class="lead m-0 text-center" style="font-family: 'Open Sans', sans-serif;">
+        <p class="lead m-0 text-center">
           Interests:
           {% for interest in site.data.bio.interests %}
           {{ interest.name }}{% if forloop.last != true %}, {% endif %}
