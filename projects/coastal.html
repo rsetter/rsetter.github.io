@@ -5,19 +5,19 @@ title: Coastal Research
 
 <hr style="margin: 3rem 0; border: 0; border-top: 2px solid #ddd;">
 
-<div style="background: url('{{ site.baseurl }}/img/research-bg.png') center/cover no-repeat; min-height: 300px; position: relative;" class="py-4">
-  <div class="container" style="position: relative; z-index: 1;">
+<div style="background: url('{{ site.baseurl }}/img/research-bg.png') center top/auto 280px no-repeat; min-height: 320px;" class="py-4">
+  <div class="container">
     <div class="row mb-3">
       <div class="col-12 text-center">
-        <h2 class="mb-4">Research</h2>
+        <h2>Research</h2>
       </div>
     </div>
-    <div class="row g-3 justify-content-center">
+    <div class="row g-3 justify-content-center" style="margin-top: 180px;">
       <div class="col-md-2">
-        <a href="javascript:void(0)" onclick="showAll()" class="text-decoration-none">
+        <a href="{{ site.baseurl }}/projects/" class="text-decoration-none">
           <div class="card h-100" style="background-color: rgba(255, 255, 255, 0.85); border: 1px solid #333;">
-            <div class="card-body text-center py-2 px-3">
-              <h6 class="card-title mb-0" style="color: #333; font-weight: normal;">All Projects</h6>
+            <div class="card-body text-center py-2">
+              <h6 class="mb-0" style="color: #333;">All Projects</h6>
             </div>
           </div>
         </a>
@@ -25,8 +25,8 @@ title: Coastal Research
       <div class="col-md-2">
         <a href="{{ site.baseurl }}/projects/marine.html" class="text-decoration-none">
           <div class="card h-100" style="background-color: rgba(255, 255, 255, 0.85); border: 1px solid #333;">
-            <div class="card-body text-center py-2 px-3">
-              <h6 class="card-title mb-0" style="color: #333; font-weight: normal;">Marine</h6>
+            <div class="card-body text-center py-2">
+              <h6 class="mb-0" style="color: #333;">Marine</h6>
             </div>
           </div>
         </a>
@@ -34,8 +34,8 @@ title: Coastal Research
       <div class="col-md-2">
         <a href="{{ site.baseurl }}/projects/coastal.html" class="text-decoration-none">
           <div class="card h-100" style="background-color: rgba(255, 255, 255, 0.95); border: 2px solid #333;">
-            <div class="card-body text-center py-2 px-3">
-              <h6 class="card-title mb-0" style="color: #333; font-weight: bold;">Coastal</h6>
+            <div class="card-body text-center py-2">
+              <h6 class="mb-0" style="color: #333; font-weight: bold;">Coastal</h6>
             </div>
           </div>
         </a>
@@ -43,8 +43,8 @@ title: Coastal Research
       <div class="col-md-2">
         <a href="{{ site.baseurl }}/projects/terrestrial.html" class="text-decoration-none">
           <div class="card h-100" style="background-color: rgba(255, 255, 255, 0.85); border: 1px solid #333;">
-            <div class="card-body text-center py-2 px-3">
-              <h6 class="card-title mb-0" style="color: #333; font-weight: normal;">Terrestrial</h6>
+            <div class="card-body text-center py-2">
+              <h6 class="mb-0" style="color: #333;">Terrestrial</h6>
             </div>
           </div>
         </a>
@@ -54,33 +54,12 @@ title: Coastal Research
 </div>
 
 <div class="container py-5">
-  <div class="vstack gap-3" id="projects-list">
-    {% assign marine_projects = site.pages | where: "type", "project" | where: "category", "marine" | sort: "date" | reverse %}
-    {% assign coastal_projects = site.pages | where: "type", "project" | where: "category", "coastal" | sort: "date" | reverse %}
-    {% assign terrestrial_projects = site.pages | where: "type", "project" | where: "category", "terrestrial" | sort: "date" | reverse %}
-    {% assign all_projects = site.pages | where: "type", "project" | sort: "date" | reverse %}
-    
-    <div id="coastal-projects">
-      {% for page in coastal_projects %}
-        {% unless page.draft %}
-          {% include projects/project-card.html page=page %}
-        {% endunless %}
-      {% endfor %}
-    </div>
-    
-    <div id="all-projects" style="display: none;">
-      {% for page in all_projects %}
-        {% unless page.draft %}
-          {% include projects/project-card.html page=page %}
-        {% endunless %}
-      {% endfor %}
-    </div>
+  <div class="vstack gap-3">
+    {% assign project_pages = site.pages | where: "type", "project" | where: "category", "coastal" | sort: "date" | reverse %}
+    {% for page in project_pages %}
+      {% unless page.draft %}
+        {% include projects/project-card.html page=page %}
+      {% endunless %}
+    {% endfor %}
   </div>
 </div>
-
-<script>
-function showAll() {
-  document.getElementById('coastal-projects').style.display = 'none';
-  document.getElementById('all-projects').style.display = 'block';
-}
-</script>
