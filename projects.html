@@ -1,54 +1,26 @@
 ---
-title: Research Projects
 layout: default
+title: All Research Projects
 ---
 <div class="container py-5">
   <div class="row mb-4">
     <div class="col-12">
-      <h1 class="display-4 mb-3">
-        {% assign category = page.url | split: "category=" | last %}
-        {% if category == "marine" %}
-          Marine Research
-        {% elsif category == "coastal" %}
-          Coastal Research
-        {% elsif category == "terrestrial" %}
-          Terrestrial Research
-        {% else %}
-          All Research Projects
-        {% endif %}
-      </h1>
+      <h1 class="display-4 mb-4">All Research Projects</h1>
       <div class="btn-group mb-4" role="group">
-        <a href="{{ site.baseurl }}/projects/" class="btn btn-outline-primary">All</a>
-        <a href="{{ site.baseurl }}/projects/?category=marine" class="btn btn-outline-primary">Marine</a>
-        <a href="{{ site.baseurl }}/projects/?category=coastal" class="btn btn-outline-primary">Coastal</a>
-        <a href="{{ site.baseurl }}/projects/?category=terrestrial" class="btn btn-outline-primary">Terrestrial</a>
+        <a href="{{ site.baseurl }}/projects/" class="btn btn-primary">All Projects</a>
+        <a href="{{ site.baseurl }}/projects/marine.html" class="btn btn-outline-primary">Marine</a>
+        <a href="{{ site.baseurl }}/projects/coastal.html" class="btn btn-outline-primary">Coastal</a>
+        <a href="{{ site.baseurl }}/projects/terrestrial.html" class="btn btn-outline-primary">Terrestrial</a>
       </div>
     </div>
   </div>
   
-  <div class="vstack gap-3" id="projects-list">
+  <div class="vstack gap-3">
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% for page in project_pages %}
       {% unless page.draft %}
-        <div class="project-card" data-category="{{ page.category }}">
-          {% include projects/project-card.html page=page %}
-        </div>
+        {% include projects/project-card.html page=page %}
       {% endunless %}
     {% endfor %}
   </div>
 </div>
-
-<script>
-  // Filter projects based on URL parameter
-  const urlParams = new URLSearchParams(window.location.search);
-  const category = urlParams.get('category');
-  
-  if (category) {
-    const projectCards = document.querySelectorAll('.project-card');
-    projectCards.forEach(card => {
-      if (card.dataset.category !== category) {
-        card.style.display = 'none';
-      }
-    });
-  }
-</script>
