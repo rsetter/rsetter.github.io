@@ -11,7 +11,9 @@
     "profiles": [
       { "network": "github", "username": "rsetter", "url": "http://github.com/rsetter" },
       { "network": "linkedin", "username": "reneesetter", "url": "http://www.linkedin.com/in/reneesetter" },
-      { "network" : "scholar", "username" : "renee-o-setter", "url" : "http://scholar.google.com/citations?user=l_ab_FYAAAAJ&hl=en&oi=ao" }
+      { "network" : "scholar", "username" : "renee-o-setter", "url" : "http://scholar.google.com/citations?user=l_ab_FYAAAAJ&hl=en&oi=ao" },
+      { "network": "researchgate", "username": "Renee-Setter", "url": "https://www.researchgate.net/profile/Renee-Setter/" },
+      { "network": "orcid", "username": "0000-0002-6651-9054", "url": "https://orcid.org/0000-0002-6651-9054" }
     ]
   },
   "interests": [
