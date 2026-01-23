@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+category: terrestrial
 image: img/rainbows/rainbow.jpg
 title: "Rainbow Occurrence"
 date: 2022
