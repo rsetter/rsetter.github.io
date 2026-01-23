@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+category: marine
 image: img/whales/whaleunderwater.jpg
 title: "Humpback Whale Breeding Grounds"
 date: 2022
