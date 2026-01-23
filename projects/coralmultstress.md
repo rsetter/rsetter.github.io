@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+category: marine
 image: img/coralmultstress/coralamsam.JPG
 title: "Co-occurring Stressors on Coral Reefs"
 date: 2022
