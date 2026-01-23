@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+category: terrestrial
 image: img/diseases/virus.jpg
 title: "Diseases Aggravated by Climate Change"
 date: 2022
