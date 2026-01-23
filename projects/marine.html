@@ -53,10 +53,10 @@ title: Research
 
 <div class="container py-5">
   <div class="vstack gap-3">
-    {% assign project_pages = site.pages | where: "type", "project" | where: "category", "marine" | sort: "date" | reverse %}
-    {% for page in project_pages %}
-      {% unless page.draft %}
-        {% include projects/project-card.html page=page %}
+    {% assign marine_projects = site.pages | where: "type", "project" | where: "category", "marine" | sort: "date" | reverse %}
+    {% for project in marine_projects %}
+      {% unless project.draft %}
+        {% include projects/project-card.html page=project %}
       {% endunless %}
     {% endfor %}
   </div>
