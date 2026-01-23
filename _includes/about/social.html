@@ -1,6 +1,14 @@
+{% assign academic_icons = "orcid,researchgate,google-scholar,academia" | split: "," %}
+{% if academic_icons contains include.name %}
+<a href="{{ include.url }}" target="_blank">
+  <i class="ai ai-{{ include.name }} ai-2x" style="color: var(--tf-icon-fill, #333);"></i>
+  <span>{{ include.label }}</span>
+</a>
+{% else %}
 <a href="{{ include.url }}" target="_blank">
   <svg class="tf-social" style="width: 30px; height: 30px;">
     <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#{{- include.name -}}"/>
   </svg>
   <span>{{ include.label }}</span>
 </a>
+{% endif %}
