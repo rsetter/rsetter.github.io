@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+category: terrestrial
 image: img/bogs/bogs.jpg
 title: "High-Elevation Tropical Bogs"
 date: in progress
