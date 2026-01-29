@@ -29,6 +29,10 @@
   fill: var(--tf-icon-hover);
 }
 
+.ai:hover {
+  color: var(--tf-icon-hover) !important;
+}
+
 a {
   text-decoration: none;
 }
