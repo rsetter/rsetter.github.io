@@ -33,6 +33,16 @@
   color: var(--tf-icon-hover) !important;
 }
 
+/* Hover animation for research section cards */
+#projects .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
 a {
   text-decoration: none;
 }
