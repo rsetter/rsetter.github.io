@@ -13,6 +13,7 @@ summary: "Beach-scale costs of managed retreat across forty Kauaʻi beaches unde
 ---
 
 <div class="text-center p-4">
+  <img width="500px" src="../img/justbeach/justbeach.jpg" class="img-thumbnail" >
   <img width="500px" src="../img/justbeach/justbeach_fig1.jpg" class="img-thumbnail" >
   <img width="500px" src="../img/justbeach/justbeach_fig4.jpg" class="img-thumbnail" >
 </div>
