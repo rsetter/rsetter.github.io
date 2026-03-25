@@ -13,7 +13,6 @@ summary: "Beach-scale costs of managed retreat across forty Kauaʻi beaches unde
 ---
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/justbeach/justbeach.jpg" class="img-thumbnail" >
   <img width="500px" src="../img/justbeach/justbeach_fig1.jpg" class="img-thumbnail" >
   <img width="500px" src="../img/justbeach/justbeach_fig4.jpg" class="img-thumbnail" >
 </div>
@@ -21,3 +20,7 @@ summary: "Beach-scale costs of managed retreat across forty Kauaʻi beaches unde
 Sandy beaches are being squeezed out of existence by erosion, coastal development, and sea level rise. This study provides a beach-scale cost analysis of managed retreat for Kauaʻi, estimating property acquisition, deconstruction, and infrastructure realignment costs across forty beaches through 2100. We find total adaptation costs of $3.1 billion (2025 USD), with half of that needed immediately. Infrastructure dominates costs at $2.0 billion, while residential and hotel development represent additional major cost drivers. Our results show how historical coastal planning decisions have created development lock-in that makes beach-centered adaptation costly, and provide information to support broader deliberations for sea level rise adaptation planning.
 
 This study can be found [here](https://doi.org/10.1016/j.crm.2026.100790).
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/justbeach/justbeach.jpg" class="img-thumbnail" >
+</div>
