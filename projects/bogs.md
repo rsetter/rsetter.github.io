@@ -4,8 +4,9 @@ type: project
 category: terrestrial
 image: img/bogs/bogs.jpg
 title: "High-Elevation Tropical Bogs"
-date: in progress
+date: 2026
 published: true
+inprogress: true
 labels:
   - R
   - Python
