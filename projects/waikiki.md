@@ -2,7 +2,7 @@
 layout: project
 type: project
 category: coastal
-image: img/waikiki/waikiki_drone.jpg
+image: img/waikiki/waikiki_drone.JPG
 title: "Costs and Tradeoffs of Sea Level Rise Adaptation in Island Urban Centers"
 date: 2026
 published: true
